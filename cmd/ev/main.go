@@ -4,15 +4,16 @@ import (
 	"context"
 	"flag"
 	"fmt"
-	"github.com/1340691923/ElasticView/pkg/infrastructure/config"
-	"github.com/1340691923/ElasticView/pkg/server"
-	"github.com/1340691923/ElasticView/pkg/util"
 	"log"
 	_ "net/http/pprof"
 	"os"
 	"os/signal"
 	"syscall"
 	"time"
+
+	"github.com/1340691923/ElasticView/pkg/infrastructure/config"
+	"github.com/1340691923/ElasticView/pkg/server"
+	"github.com/1340691923/ElasticView/pkg/util"
 )
 
 var args *config.CommandLineArgs

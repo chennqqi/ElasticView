@@ -3,8 +3,6 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/1340691923/ElasticView/pkg/infrastructure/config"
-	"github.com/1340691923/ElasticView/pkg/util"
 	"log"
 	_ "net/http/pprof"
 	"os"
@@ -12,6 +10,9 @@ import (
 	"path/filepath"
 	"runtime"
 	"strings"
+
+	"github.com/1340691923/ElasticView/pkg/infrastructure/config"
+	"github.com/1340691923/ElasticView/pkg/util"
 )
 
 var args *config.CommandLineArgs

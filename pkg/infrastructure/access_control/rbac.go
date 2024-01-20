@@ -2,9 +2,9 @@ package access_control
 
 import (
 	"fmt"
+
 	"github.com/1340691923/ElasticView/pkg/infrastructure/config"
 	"github.com/1340691923/ElasticView/pkg/infrastructure/logger"
-
 	"github.com/casbin/casbin/v2"
 	"github.com/casbin/casbin/v2/model"
 	xormadapter "github.com/casbin/xorm-adapter/v2"
